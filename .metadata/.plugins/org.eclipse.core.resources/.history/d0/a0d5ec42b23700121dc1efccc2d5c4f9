@@ -1,0 +1,26 @@
+package de.lex.ndkusage;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Button click = (Button) findViewById(R.id.click);
+        click.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				helloLog("Native call to ndk from an Android activity!!");
+			}
+
+		});
+    }
+    
+    public native void helloLog(String string);
+}

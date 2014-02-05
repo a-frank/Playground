@@ -1,0 +1,23 @@
+package sample.remote.calculator;
+
+import akka.actor.UntypedActor;
+
+public class MultiActor extends UntypedActor {
+
+	private static int counter = 0;
+
+	private int number;
+
+	@Override
+	public void preStart() throws Exception {
+		number = counter++;
+	}
+
+	@Override
+	public void onReceive(Object arg0) throws Exception {
+		while (true) {
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,1 @@
+include ':CloudMessageIntegration', ":google-play-services_lib"

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;I&apos;m the second activity&apos; into R.string.second" description="Extracts string &apos;I&apos;m the second activity&apos; into R.string.second" file="/example/res/layout/activity_two.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/example" rplc-all-java="false" rplc-all-xml="false" sel-end="390" sel-start="368" stamp="1385475623136" tok-esc="I&apos;m the second activity" xml-attr-name="android:text"/>
+</session>

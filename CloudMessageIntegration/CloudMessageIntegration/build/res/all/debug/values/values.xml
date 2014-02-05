@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_gray">#CFCFCF</color>
+    <color name="light_green">#7700FF00</color>
+    <color name="light_red">#77FF0000</color>
+
+    <string name="app_name">CloudMessageIntegration</string>
+    <string name="echo">Echo</string>
+    <string name="not_registered">You are not registered for messages at this moment</string>
+    <string name="register">Register</string>
+    <string name="register_failed">Registration for messaging failed. Please check your connection.</string>
+    <string name="send_failed">Message could not be send</string>
+    <string name="unregister">Unregister</string>
+    <string name="unregister_failed">Unregistration from messaging failed. Please check your connection.</string>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

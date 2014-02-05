@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="echo" >Echo
+                </string>
+                <string name="register" >Register
+                </string>
+                <string name="register_failed" >Registration for messaging failed. Please check your connection.
+                </string>
+                <string name="app_name" >CloudMessageIntegration
+                </string>
+                <string name="unregister" >Unregister
+                </string>
+                <string name="not_registered" >You are not registered for messages at this moment
+                </string>
+                <string name="unregister_failed" >Unregistration from messaging failed. Please check your connection.
+                </string>
+                <string name="send_failed" >Message could not be send
+                </string>
+            </file>
+            <file
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="light_green" >#7700FF00
+                </color>
+                <color name="light_red" >#77FF0000
+                </color>
+                <color name="light_gray" >#CFCFCF
+                </color>
+            </file>
+            <file
+                name="main"
+                path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/src/debug/res" />
+    </dataSet>
+
+</merger>

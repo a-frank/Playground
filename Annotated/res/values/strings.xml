@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">Annotated</string>
+	<string name="input_hint">Input something</string>
+	<string name="action_hint">Hit it!</string>
+</resources>

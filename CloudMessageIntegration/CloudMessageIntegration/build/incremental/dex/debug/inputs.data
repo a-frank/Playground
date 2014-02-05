@@ -1,0 +1,24 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1369402644000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/libs/android-support-v4.jar
+1369407213000 388 670ad7e83c24d77a7372ea41130f65d66de6656a /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$layout.class
+1369407213000 425 4db0b643e41fc4d9d2975c27a429e794b3181580 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$style.class
+1369315152000 591443 f0d8e4a84fad131bc291c3c4850afcaa8ba0b299 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/libs/google-play-services.jar
+1369407213000 2303 8c5d9936e3c168b74e055502861e9c8c340b60c3 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/MainActivity$Unregister.class
+1369402664000 334 e7bfbe2d14a8362c57aa51761aeb50d1a5c1924c /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$attr.class
+1369407213000 492 df6c238506589d21b88246725ecf7c09ab45079d /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/Manifest$permission.class
+1369407213000 373 9c275256449e2bdd4efb39681075d2fbe997ec48 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/Manifest.class
+1369404389000 1602 0117339c5b04d3e66612c6d5ef83f07422ed2a4c /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/RegistrationPreferences.class
+1369407213000 1384 092335e8f3bac9893b113b6dba14428e40896f00 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/MainActivity$2.class
+1369404389000 401 67f882bb29a9d9b58b1558f24a6a0d23a245ed07 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$drawable.class
+1369404389000 459 58ebaf640d8672dec1c06f1d6379f0688598266d /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$color.class
+1369407213000 2382 31f7e81de9b2c5c724c03f84ff5479e303571ec9 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/MainActivity$Register.class
+1369407213000 2581 9fbf712a072dde537e92e2eada778e48e46f7189 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/MainActivity$Send.class
+1369407213000 446 ebfdf30864b2e0d8dcd107973d26612101d21ede /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$id.class
+1369407213000 3218 50e1bbb360cd080c3a4fe01e83efa13d43bea56a /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/MainActivity.class
+1369407213000 639 1e93329bb93464cf33dd457bd700873d0aaa72c6 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R$string.class
+1369407213000 1045 237e6cad3fd25e077d4a83f226d9be2113d251e6 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/CloudMessageReceiver.class
+1369407213000 1034 24535e59099e259b2b891daca7981c323282ca48 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/MainActivity$1.class
+1369402664000 341 2b6dcf21d16b24ffec19bfd2fff4e9cd21c5adea /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/BuildConfig.class
+1369407213000 613 831e3e9e68db3df53d073aa97639c18368e9f549 /Users/alexfrank/workspace/Playground/CloudMessageIntegration/CloudMessageIntegration/build/classes/debug/com/arconsis/gcm/R.class

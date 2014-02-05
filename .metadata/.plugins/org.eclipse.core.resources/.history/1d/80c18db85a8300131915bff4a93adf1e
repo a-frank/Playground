@@ -1,0 +1,26 @@
+/**
+ *  Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>
+ */
+package sample.remote.calculator;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
+
+import java.util.Random;
+
+import scala.concurrent.duration.Duration;
+import akka.actor.ActorRef;
+import akka.actor.ActorSystem;
+import akka.actor.Props;
+
+public class CreationApplication {
+
+	public static void main(String[] args) {
+		startRemoteCreationSystem();
+	}
+
+	public static void startRemoteCreationSystem() {
+		ActorSystem actorSystem = ActorSystem.create("testSystem");
+		final ActorRef actor = actorSystem.actorOf(Props.create(MultiActor.class), "multi");
+		actor.tell("foo", ActorRef.noSender());
+	}
+}

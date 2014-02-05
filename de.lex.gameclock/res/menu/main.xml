@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/start"
+        android:showAsAction="always"
+        android:title="@string/start"
+        android:icon="@android:drawable/ic_menu_slideshow"/>
+    
+    <item
+        android:id="@+id/add_player"
+        android:showAsAction="ifRoom"
+        android:title="@string/add_player"
+        android:icon="@android:drawable/ic_menu_add"/>
+    
+    <item 
+        android:id="@+id/remove_all_players"
+        android:showAsAction="ifRoom"
+        android:title="@string/remove_all_players"
+        android:icon="@android:drawable/ic_menu_delete"/>
+
+</menu>

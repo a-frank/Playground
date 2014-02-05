@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CloudMessageIntegration</string>
+    <string name="not_registered">You are not registered for messages at this moment</string>
+    <string name="register">Register</string>
+    <string name="unregister_failed">Unregistration from messaging failed. Please check your connection.</string>
+    <string name="unregister">Unregister</string>
+    <string name="register_failed">Registration for messaging failed. Please check your connection.</string>
+    <string name="echo">Echo</string>
+    <string name="send_failed">Message could not be send</string>
+</resources>

@@ -1,0 +1,33 @@
+/**
+ *  Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>
+ */
+package sample.remote.calculator;
+
+import java.io.File;
+
+import akka.actor.ActorRef;
+import akka.actor.ActorSystem;
+import akka.actor.Props;
+import akka.routing.Broadcast;
+import akka.routing.FromConfig;
+
+import com.typesafe.config.ConfigFactory;
+
+public class CreationApplication {
+
+	public static void main(String[] args) {
+		startRemoteCreationSystem();
+	}
+
+	public static void startRemoteCreationSystem() {
+		File config = new File("src/main/resources/application.conf");
+		if (!config.exists()) {
+			System.err.println("Config not found!");
+			System.exit(-1);
+		}
+		ActorSystem actorSystem = ActorSystem.create("testSystem", ConfigFactory.parseFile(config));
+
+		final ActorRef actor = actorSystem.actorOf(Props.create(MultiActor.class).withRouter(FromConfig.getInstance()), "multi");
+		actor.tell(new Broadcast("foo"), ActorRef.noSender());
+	}
+}

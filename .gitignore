@@ -6,4 +6,11 @@
 *.ear
 
 gen/
-.metadata/
+*/.metadata/**
+.DS_Store
+
+*/.project
+*/.classpath
+*/.gradle/*
+*/.idea/*
+*/bin/**

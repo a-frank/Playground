@@ -1,0 +1,10 @@
+1389687471227	Extract constant '_0'
+1389687625390	Rename field 'findViewById'
+1389688128191	Extract constant 'IMAGE2'
+1389688471206	Extract constant '_1'
+1389697548404	Rename resource 'android-evolution-wallpaper.png'
+1389697575272	Move file
+1389697991959	Extract constant '_400'
+1389698055960	Extract local variable 'createScaledBitmap'
+1389698064654	Extract local variable 'bitmap'
+1389698665800	Rename method 'decodeSampledBitmapFromResource'

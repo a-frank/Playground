@@ -1,0 +1,25 @@
+/**
+ *  Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>
+ */
+package sample.remote.calculator;
+
+import akka.actor.ActorRef;
+import akka.actor.ActorSystem;
+import akka.actor.Props;
+import akka.routing.RoundRobinRouter;
+
+public class CreationApplication {
+
+	public static void main(String[] args) {
+		startRemoteCreationSystem();
+	}
+
+	public static void startRemoteCreationSystem() {
+		ActorSystem actorSystem = ActorSystem.create("testSystem");
+		final ActorRef actor = actorSystem.actorOf(Props.create(MultiActor.class).withRouter(new RoundRobinRouter(8)), "multi");
+		for (int i = 0; i < 8; i++) {
+			System.out.println("Starting actor " + i);
+			actor.tell("foo", ActorRef.noSender());
+		}
+	}
+}
